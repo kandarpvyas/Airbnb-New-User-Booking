@@ -6,15 +6,9 @@ Predicting countries which will be booked by Airbnb users as their first booking
 
 # Airbnb Kaggle Competition: *New User Bookings*
 
-[![Code Health](https://landscape.io/github/davidgasquez/kaggle-airbnb/master/landscape.svg?style=flat)](https://landscape.io/github/davidgasquez/kaggle-airbnb/master)
-
 This repository contains the code developed for the [Airbnb's Kaggle
 competition][competition]. It's written in **Python**, some in the form
 of **Jupyter Notebooks**, and other in pure Python 3.
-
-The code produces predictions with scores around 0.88090% in the public
-leader-board, enough to be in the best 5% participants(0.001% behind the best)
-and 0.88509% in the private leader-board(0.0018% behind the winner)
 
 The entire run should not take more than 4 hours(thanks to the parallel
 preprocessing) in a modern/recent computer, though you may run into memory
@@ -39,10 +33,6 @@ destination country and the datasets consist of a list of users with their
 demographics, web session records, and some summary statistics.
 
 ## Data
-
-Due to the [*Competition Rules*][rules], the data sets can not be shared. If
-you want to take a look at the data, head over the [competition][competition]
-page and download it.
 
 You need to download `train_users_2.csv`, `test_users.csv` and `sessions.csv`
 files and unzip them into the 'data' folder.
@@ -79,12 +69,12 @@ basically the next Python packages:
 - [Jupyter](http://jupyter.org/)
 - [SciKit-Learn](http://scikit-learn.org/stable/)
 - [Matplotlib](http://matplotlib.org/)
-- [Unbalanced Dataset](https://github.com/fmfn/UnbalancedDataset)
+- [Keras Sequential Model](https://keras.io/models/sequential/)
+- [Tensorflow](https://www.tensorflow.org/)
+
+
 
 ## Resources
 
 - [XGBoost Documentation](https://xgboost.readthedocs.org) - A library designed
 and optimized for boosted (tree) algorithms.
-- [Pattern Classification](https://github.com/rasbt/pattern_classification) -
-Tutorials, examples, collections, and everything else that falls into the
-categories: pattern classification, machine learning, and data mining.
